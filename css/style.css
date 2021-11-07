@@ -1,0 +1,221 @@
+body{
+    background-color: #F3F4F6;
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    color: #25292C;
+}
+
+a{
+    all: unset;
+}
+a:hover{
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+button{
+    all: unset;
+}
+hr{
+    border-top: 0.1em solid #E4E5E7;
+    width: 100vw;
+}
+
+main{}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../img/sarah-background.svg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 1em;
+}
+.menu{
+    margin-left: 3em;s
+}
+.menu>ul{
+    margin: 0;
+    padding: 0;
+}
+.menu>ul>button{
+    padding: 1em 0.7em;
+    color: #0D0E10;
+    font-weight: 900;
+    min-width: 5em;
+    text-align: center;
+}
+.menu>ul>button:hover{
+    transition-duration: 1s;
+    background-color: #FFE800;
+}
+
+section{}
+h1{
+    font-size: 4em;
+    font-weight: 900;
+    color: #F3F4F6;
+}
+h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+h3{
+    font-size: 13em;
+    text-align: center;
+    color: #E4E5E7;
+    margin: 0;
+    overflow: visible;
+}
+h4{
+    text-align: center;
+}
+p{
+    font-size: 1.5em;
+    text-align: justify;
+    font-weight: 600;
+}
+strong{}
+
+.inicio{
+    width: 50vw;
+    margin: 0 0 4em 2em;
+}
+.introducao{
+    
+}
+.introducao>p{
+    color:
+}
+#curriculo{
+    font-weight: bold;
+}
+#icone-download{
+    font-size: 3em;
+}
+
+.sobre-mim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.interesses{
+    height: 7em;
+}
+.icone-interesses{
+    display: flex;
+    height: 10em;
+}
+.icone-interesses>figure{
+    text-align: center;
+    margin: 0 3em;
+}
+.icone-interesses>figure>i{
+    font-size: 5em;
+    color: #F2A516;
+}
+.icone-interesses>figure>figcaption{
+    font-size: 1.1em;
+    font-weight: 900;
+    color: #F2A516;
+}
+
+.minhas-competencias{
+    display: flex;
+    align-items: flex-start;
+    width: 100vw;
+    height: 30em;
+}
+.motivacao{
+    width: 50vw;
+    height: 100vh;
+    margin: 0 2em;
+}
+.motivacao>p, .habilidades>p{
+    font-size: 1em;
+}
+#foto-sarah-motivacao{
+    width: 14em;
+}
+.habilidades{
+    width: 50vw;
+    height: 100vh;
+    margin: 0 2em;
+}
+.progresso{
+    display: flex;
+    justify-content: space-between;
+    height: 1.5em;
+    width: 100%;
+    color: #F2DE79;
+    font-weight: 600;
+    padding-left: 0.5em;
+    margin: 1em 0;
+}
+label{
+    color: #9FA5A6;
+}
+#html{
+    background-image: linear-gradient(90deg, #F2A516 60%, #F3F4F6 0%);
+}
+
+#css{
+    background-image: linear-gradient(90deg, #F2A516 50%, #F3F4F6 0%);
+}
+#js{
+    background-image: linear-gradient(90deg, #F2A516 15%, #F3F4F6 0%);
+}
+#java{
+    background-image: linear-gradient(90deg, #F2A516 0%, #F3F4F6 0%);
+}
+
+.citacao{
+    margin: 0 3em;
+    height: 20vh;
+}
+.citacao>p{
+    text-align: center;
+}
+
+.projetos{}
+.icone-projetos{
+    display: flex;
+    justify-content: space-around;
+}
+.icone-projetos>figure{
+    text-align: center;
+}
+.icone-projetos>figure>a>i{
+    font-size: 5em;
+    color: #F2A516;
+}
+.icone-projetos>figure>a>figcaption{
+    font-size: 1.1em;
+    font-weight: 900;
+    color: #F2A516;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #E4E5E7;
+    height: 80vh;
+    padding-top: 1em;
+}
+.redes-sociais{}
+.redes-sociais>ul{
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin: 0 22em 2em 22em;
+}
+.redes-sociais>ul>li>a>i{
+    font-size: 2.5em;
+}
