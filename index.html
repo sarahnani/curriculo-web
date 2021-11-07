@@ -15,29 +15,34 @@
         <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
         <link href="css/style.css" type="text/css" rel="stylesheet">
         <title>CV Sarah Nani</title>
+        <script>
+            function curriculoAlert(){
+                alert("Currículo ainda não foi adicionado para download..");
+            }
+        </script>
     </head>
     <body>
         <main>
             <header>                    
                 <nav class="menu">
                     <ul>
-                        <button type="button"><a href="" title="Início">Início</a></button>
-                        <button type="button"><a href="" title="Sobre Mim">Sobre Mim</a></button>
-                        <button type="button"><a href="" title="Motivações">Motivações</a></button>
-                        <button type="button"><a href="" title="Habilidades">Habilidades</a></button>
-                        <button type="button"><a href="" title="Projetos">Projetos</a></button>
-                        <button type="button"><a href="" title="Redes Sociais">Redes Sociais</a></button>
+                        <button type="button"><a href="#inicio" title="Início">Início</a></button>
+                        <button type="button"><a href="#sobre-mim" title="Sobre Mim">Sobre Mim</a></button>
+                        <button type="button"><a href="#motivacao" title="Motivações">Motivações</a></button>
+                        <button type="button"><a href="#habilidades" title="Habilidades">Habilidades</a></button>
+                        <button type="button"><a href="#projetos" title="Projetos">Projetos</a></button>
+                        <button type="button"><a href="#redes-sociais" title="Redes Sociais">Redes Sociais</a></button>
                     </ul>
                 </nav>
-                <section class="inicio">                                      
+                <section class="inicio" id="inicio">                                      
                     <div class="introducao">
                         <h1>Eu, Sarah Nani!</h1>
                         <p>Aqui você encontra meu currículo resumido com foco na área da tecnologia.<br>Caso queira ver meu currículo completo e na versão de impressão, clique abaixo:</p>
-                        <button><a href="" download="Currículo Sarah Nani" id="curriculo"><i class='bx-fw bx bxs-download bx-fade-down' id="icone-download"></i>Download do CV completo!</a></button>
+                        <button type="button" onclick="curriculoAlert()" value="exibir alert"><a href="" download="Currículo Sarah Nani" id="curriculo"><i class='bx-fw bx bxs-download bx-fade-down' id="icone-download"></i>Download do CV completo!</a></button>
                     </div>                                      
                 </section>         
             </header>                
-            <section class="sobre-mim">
+            <section class="sobre-mim" id="sobre-mim">
                 <h2>Sobre mim</h2>
                 <p>Desenvolvedora Web autodidata que tem sede por conhecimento.<br>Tenho um aprendizado muito rápido e uma afinidade por exatas!</p>
                 <div class="interesses">
@@ -68,12 +73,12 @@
             </section>
             <hr>
             <section class="minhas-competencias">
-                <div class="motivacao">
+                <div class="motivacao" id="motivacao">
                     <h2>Minhas motivações:</h3>
                     <!--<img src="img/teste.jpg" alt="foto" id="foto-sarah-motivacao">-->
                     <p><strong>Ser presente na Terra sem fazer parte da diferença no mundo não combina comigo mesmo!</strong><br>Quero poder impactar a vida das pessoas e facilitar o acesso a todos por meio da tecnologia e para isso comecei a estudar totalmente por conta.<br>Pensar em como estamos todos conectados pela internet é impressionante e eu pretendo usar isso como a principal ferramenta para atingir o máximo de pessoas possível!<br>Se você quer mudar o mundo assim como eu, juntos seremos um time fodástico!</p>
                 </div>
-                <div class="habilidades">
+                <div class="habilidades" id="habilidades">
                     <h2>Minhas habilidades:</h3>
                     <div class="progresso" id="html">HTML<label>60%</label></div>
                     <div class="progresso" id="css">CSS<label>50%</label></div>
@@ -88,7 +93,7 @@
                 <h4>Thales Valentim</h4>
             </section>                
                 <footer>
-                    <section class="projetos">
+                    <section class="projetos" id="projetos">
                         <h2>Meus projetos:</h2>
                         <div class="icone-projetos">
                             <figure>
@@ -111,7 +116,7 @@
                             </figure>
                         </div>
                     </section>
-                    <nav class="redes-sociais">
+                    <nav class="redes-sociais" id="redes-sociais">
                         <ul>
                             <li>
                                 <a href="https://linkedin.com/in/sarahnani" target="_blank" title="LinkedIn">
